@@ -1,0 +1,52 @@
+
+.bio {
+    display: flex;
+    height: 50vh;
+    margin: 0 auto;
+    width: 50%;
+    align-items: center; 
+}
+h3{
+    text-align: center;
+    font-size: 17px;
+    font-family: "Circular-Bold";
+    line-height: 150%
+}
+.flechayback{
+    display: flex;
+    align-items: center;
+}
+.back{
+    margin-left: 15%;
+}
+
+.text-container {
+    display: flex;
+    height: 20vh;
+    margin: 0 auto;
+    width: 80%;
+    padding: 2% 0;
+    justify-content: space-between
+    
+  }
+
+  h2{
+    width: 30%;
+    text-align:left;
+    flex-direction: column;
+    font-size: 14px;
+    font-family:"Circular-Book";
+    text-transform: uppercase;
+    }
+  h3{
+    text-align:left;
+    align-items: baseline;
+    font-size: 12px;
+    font-family:"Circular-Medium";
+  }
+  .dos{
+    flex-direction: column;
+    line-height: 80%
+    
+  }
+  

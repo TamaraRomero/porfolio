@@ -1,0 +1,103 @@
+@font-face{
+    src:url("../fonts/CircularStd-Book.otf");
+    font-family: "Circular-Book";
+}
+@font-face{
+    src:url("../fonts/CircularStd-Book.otf");
+    font-family: "Circular-Medium";
+}
+@font-face{
+    src:url("../fonts/CircularStd-Bold.otf");
+    font-family: "Circular-Bold";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    height: 20vh;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    text-align:left;
+    font-size: 14px;
+    font-family:"Circular-Book";
+    text-transform: uppercase;
+    letter-spacing: 3pt; 
+}
+p{
+    justify-content: space-between;
+    font-size: 10px;
+    font-family:"Circular-Book";
+}
+.app-mine{
+    width: 100%;
+    text-align: right;
+}
+.imgworks1{
+    width:25%;
+    text-align: right;
+    margin-right: 10%;
+}
+.video-premios{
+    margin-top: -10%;
+    width: 100%;
+    text-align: left;
+}
+.imgworks2{
+    width:40%;
+    text-align: left;
+    margin-left: 10%;
+}
+.revista{
+    margin-top: 10%;
+    width: 100%;
+    text-align: right;
+}
+.imgworks3{
+    width:40%;
+    text-align: right;
+    margin-right: 10%;
+}
+.urmeneta{
+    margin-top: 10%;
+    width: 100%;
+    text-align: left;
+}
+.imgworks4{
+    width:25%;
+    text-align: left;
+    margin-left: 20%;
+}
+.daniel-rueda{
+    margin-top: -27%;
+    width: 100%;
+    text-align: right;
+}
+.imgworks5{
+    width:25%;
+    text-align: right;
+    margin-right: 20%;
+}
+footer{
+    display: flex;
+    height: 20vh;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (min-width: 415px) and (max-width: 768px) {
+   
+ .video{
+    width: 45%;
+    }
+
+}

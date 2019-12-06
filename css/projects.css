@@ -1,0 +1,75 @@
+
+.text-container {
+  display: flex;
+  height: 20vh;
+  margin: 0 auto;
+  width: 80%;
+  padding: 2% 0;
+  justify-content: space-between;
+}
+h2{
+  width: 30%;
+  text-align:left;
+  flex-direction: column;
+  font-size: 14px;
+  font-family:"Circular-Book";
+  text-transform: uppercase;
+  }
+h3{
+  text-align:left;
+  align-items: baseline;
+  font-size: 12px;
+  font-family:"Circular-Medium";
+}
+.dos{
+  flex-direction: column;
+  line-height: 80%;
+  }
+  .flechayback{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .back{
+    margin-left: 15%;
+  }
+  .about{
+    margin-left: 15%;
+    font-size: 10px;
+    font-family: "Circular-Book"
+  }
+  .tamararomero{
+    flex-grow: initial;
+    text-align:left;
+  }
+.video{
+    text-align: center;
+}
+.text-container {
+    display: flex;
+    height: 20vh;
+    margin: 0 auto;
+    width: 80%;
+    padding: 2% 0;
+    justify-content: space-between
+    
+  }
+  h2{
+    width: 30%;
+    text-align:left;
+    flex-direction: column;
+    font-size: 14px;
+    font-family:"Circular-Book";
+    text-transform: uppercase;
+    }
+  h3{
+    text-align:left;
+    align-items: baseline;
+    font-size: 12px;
+    font-family:"Circular-Medium";
+  }
+  .dos{
+    flex-direction: column;
+    line-height: 80% 
+  }
+  
